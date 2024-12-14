@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+  "name": "CosPreview",
+  "version": "1.0",
+  "author": [
+		"[https://guohao.asia 郭浩]",
+		"KIMI"
+	],
+  "url": "https://guohao.asia",
+  "description": "此扩展允许您嵌入腾讯云COS文件的预览链接。",
+  "license-name": "MIT",
+  "type": "parserhook",
+  "requires": {
+    "MediaWiki": ">= 1.35.0"
+  },
+  "MessagesDirs": {
+    "CosPreview": [
+      "i18n"
+    ]
+  },
+  "AutoloadClasses": {
+    "MediaWiki\\extensions\\CosPreview\\CosPreview": "CosPreview.php"
+  },
+  "Hooks": {
+    "ParserFirstCallInit": "MediaWiki\\extensions\\CosPreview\\CosPreview::onParserFirstCallInit"
+  },
+  "ResourceModules": {
+    "ext.CosPreview": {
+      "styles": "CosPreview.css",
+      "scripts": "CosPreview.js"
+    }
+  },
+  "ResourceFileModulePaths": {
+    "localBasePath": "extensions/CosPreview",
+    "remoteExtPath": "CosPreview"
+  }
+}
