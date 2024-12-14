@@ -1,0 +1,2 @@
+# CosPreview
+一个用来在MediaWiki上插入经由腾讯云COS转换的预览文档的扩展
