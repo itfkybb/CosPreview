@@ -14,7 +14,11 @@
 
 - 确保您的 MediaWiki 版本兼容（建议 MediaWiki 1.35+）。
 - 您需要拥有腾讯云 COS 账户，并已配置存储桶（Bucket）、获取访问 ID 和区域信息。
+  1. 开通腾讯云对象存储：https://curl.qcloud.com/YnAsmg0H
+  2. 创建【存储桶】![创建存储桶](https://cdn.guohao.asia/picgo/20251017112323691.png-pic)
+  3. 
 - 在腾讯云 COS 中启用文档预览功能（可能需要额外配置，参考腾讯云文档）。
+  - 进入存储桶，开启【文档处理功能】![进入存储桶，开启【文档处理功能】](https://www.guohao.asia/picgo/20251017112532065.png-pic)
 
 ### 安装步骤
 
